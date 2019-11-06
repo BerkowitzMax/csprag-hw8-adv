@@ -10,6 +10,16 @@ operators = {
     '/': operator.truediv,
 }
 
+# should decrease coverage
+def adding_code():
+    print("does nothing!")
+    a = 10
+    b = 11
+    result = a + b
+    print(reuslt)
+    result = operator.sub(a, b)
+    print(result)
+
 def calculate(myarg):
     stack = list()
     for token in myarg.split():
