@@ -5,6 +5,7 @@ python:
   - "3.6"
 install:
   - pip3 install coverage
+  - pip3 install termcolor
 # command to run tests
 script:
   - python3 -m unittest
