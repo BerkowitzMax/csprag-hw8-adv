@@ -6,3 +6,5 @@ python:
 # command to run tests
 script:
   - python3 -m unittest
+after_success:
+  - coverage run test_rpn.py
